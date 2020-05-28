@@ -1,0 +1,26 @@
+" Basic config
+syntax on
+set number              " show numbers
+set ruler               " show line and colum number 
+set visualbell          " blink cursor on error
+set cursorline
+set lazyredraw          " redraw screen only when needed 
+set wildmenu            " autocomplete for command menu 
+set showcmd
+set showmatch           " highlight matching parentheses / brackets [{()}]
+
+set encoding=utf-8      " make sure the encoding is UTF-8
+
+" Whitespace
+set wrap                " wrap lines 
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=4           " width of the tab
+set shiftwidth=2        " number of spaces for autoindent
+set softtabstop=4       " backspace after pressing <TAB> will remove up to this many spaces
+set expandtab           " convert <TAB> key-presses to spaces
+set noshiftround
+
+" Searching
+set incsearch           " search as characters are entered 
+set hlsearch            " highlight matches
