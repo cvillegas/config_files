@@ -6,9 +6,9 @@ Don’t blindly use my settings unless you know what you are doing.
 
 Use at your own risk!
 
-### vim
-No plugins, ready to use for basic setup 
+-- 
+Author: Cesar Villegas Ureta
+blog: https://www.slayerx.org/
+repo: https://github.com/cvillegas/config_files
 
-```sh
-$ cp vimrc ~./vimrc
 
