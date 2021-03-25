@@ -8,6 +8,7 @@ set lazyredraw          " redraw screen only when needed
 set wildmenu            " autocomplete for command menu 
 set showcmd
 set showmatch           " highlight matching parentheses / brackets [{()}]
+set paste
 
 set encoding=utf-8      " make sure the encoding is UTF-8
 
@@ -24,3 +25,19 @@ set noshiftround
 " Searching
 set incsearch           " search as characters are entered 
 set hlsearch            " highlight matches
+
+" Plugins
+call plug#begin('~/.vim/plugged')
+
+Plug 'morhetz/gruvbox'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
+
+"colorscheme gruvbox
+" let g:gruvbox_contrast_dark = "dark" 
+
+let mapleader=" "
+
+nmap <Leader>nt :NERDTreeFind<CR>
